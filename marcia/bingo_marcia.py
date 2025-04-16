@@ -10,7 +10,7 @@ pygame.display.set_caption("Bingo da mae marcia")
 fonte = pygame.font.SysFont("arial", 25)
 fonte_bingo = pygame.font.SysFont("arial", 40, bold=True)
 
-# coe
+# cor
 roxo = (150, 0, 200)
 branco = (255, 255, 255)
 preto = (0, 0, 0)
@@ -33,7 +33,7 @@ for i in range(5):
 cartela[2][2] = "❤️"  
 # arrumar 
 hello = pygame.image.load("hellokitty.png")
-hello = pygame.transform.scale(hello, (70, 60))
+hello = pygame.transform.scale(hello, (78, 65))
 
 sorteados = []
 
